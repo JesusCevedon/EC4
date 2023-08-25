@@ -1,0 +1,23 @@
+@server = https://fictional-couscous-vgqvx74v6cv76-8081.app.github.dev
+###
+GET {{server}}/api/instrumentos/2
+###
+POST {{server}}/api/instrumentos
+Content-Type: application/json
+
+{"nombre": "Quena", "categoria": "Viento", "descripcion": "Como una flauta"}
+###
+GET {{server}}/api/musicos
+###
+POST {{server}}/api/musicos
+Content-Type: application/json
+
+{"nombre": "Joaquín"}
+###
+GET {{server}}/api/bandas
+###
+GET {{server}}/api/bandas/1
+###
+GET {{server}}/api/bandas/1/formacion
+###
+GET {{server}}/api/integrantes
