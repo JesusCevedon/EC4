@@ -18,7 +18,7 @@ const VerMusicoPage = () => {
 
     return (
         <>
-            <h1>Ver Comprador</h1>
+            <h1>Lista  de compradores fregunetes</h1>
 
             <table>
                 <tr>

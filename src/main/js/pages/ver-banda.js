@@ -29,7 +29,7 @@ const VerBandaPage = () => {
             <table border="1">
                 <tbody>
                     <tr>
-                        <th>Nombre</th>
+                        <th>codigo</th>
                         <td>{banda.nombre}</td>
                     </tr>
                 </tbody>
@@ -40,8 +40,8 @@ const VerBandaPage = () => {
             <table border="1">
                 <thead>
                     <tr>
-                        <th>Musico</th>
-                        <th>Instrumento</th>
+                        <th>Comprador</th>
+                        <th>Pedido</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -60,7 +60,7 @@ const VerBandaPage = () => {
             </table>
 
             <hr />
-            <Link to={`/ver-banda/${id}/nuevo-integrante`}>Nuevo Integrante</Link> |
+            <Link to={`/ver-banda/${id}/nuevo-integrante`}>Nuevo Comprador</Link> |
             <Link to="/">Volver</Link>
         </>
     )

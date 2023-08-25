@@ -29,17 +29,17 @@ class HomePage extends React.Component {
 
 				<div style={  {"width": "100%", "display": "flex"}   }>
 					<div style={{"width": "calc(100% / 3)"}}>
-						<Titulo entidad="Intrumentos" emoji="-" />
+						<Titulo entidad="Productos" emoji="-" />
 						<InstrumentoList instrumentos={this.state.instrumentos} />
 						<Link to="/nuevo-instrumento">Nuevo Producto</Link>
 					</div>
 					<div style={{"width": "calc(100% / 3)"}}>
-						<Titulo entidad="Musicos" emoji="-" />
+						<Titulo entidad="Comprador" emoji="-" />
 						<MusicoList musicos={this.state.musicos} />
 						<Link to="/nuevo-musico">Nuevo Comprador</Link>
 					</div>
 					<div style={{"width": "calc(100% / 3)"}}>
-						<Titulo entidad="Bandas" emoji="-" />
+						<Titulo entidad=" Pedido" emoji="-" />
 						<BandaList bandas={this.state.bandas} />
 						<Link to="/nueva-banda">Lista detalle pedido</Link>
 					</div>
@@ -57,7 +57,7 @@ const Titulo = (props) => {
 			<hr />
 			<h2>{props.emoji} - {props.entidad}</h2>
 			<hr />
-			Lista completa de {props.entidad.toLowerCase()}
+			Lista completa
 		</>
 	)
 }

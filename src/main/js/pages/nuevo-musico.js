@@ -24,7 +24,7 @@ const NuevoMusicoPage = () => {
 
     return (
         <>
-        <h1>Lista  de compradores fregunetes</h1>
+        <h1>nuevo Comprador</h1>
         <form onSubmit={handleSubmit}>
             <label>Nombre</label> <br />
             <input type="text" id='nombre' name='nombre' onChange={e=>setNombre(e.target.value)} /> <br />
